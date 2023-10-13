@@ -1,0 +1,166 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('bg1.jpg');
+    background-size: cover;
+  }
+.sidebar{
+   background-color: rgb(243, 224, 224);
+    height: 100vh;
+    font-family: 'Itim', cursive;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebar nav{
+    padding: 30px;
+}
+
+.sidebar nav li{
+    padding : 33px 0;
+    list-style: none;
+    font-size: 25px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    margin-top: -700px;
+    float: right;
+    height: 100px;
+    width: 180px;
+    margin-right: -140px;
+}
+
+.skilllogo{
+    float: right;
+    margin-top: -589px;
+}
+
+.logoskill1{
+    margin-left: -160px;
+    margin-top: 10px;
+}
+.logoskill2{
+    margin-top: 25px;
+    margin-left: -75px;
+}
+.logoskill7{
+    margin-top: 40px;
+    margin-left: -5px;
+}
+.logoskill5{
+    margin-top: 70px;
+    margin-left: -15px;
+}
+.logoskill6{
+    margin-top: 60px;
+    margin-left: -40px;
+}
+.logoskill3{
+    margin-top: 35px;
+    margin-left: -140px;
+}
+
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /*background-color: pink;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devpic img{
+    margin-top: -50px;;
+    height: 85vh;
+}
+
+
+
+.name{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Itim', cursive;
+    
+}
+
+.more{
+    
+    font-size: 29px;
+}
+
+.button{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size:21px;
+    margin: 0 3px;
+    font-size: 21px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-top: 8px;
+    margin-left: 140px;
+}
+
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+   } 
+
+   @media (max-width:1245px) {
+    *{
+
+    }
+    .devpic{
+        display: none;
+    }
+    
+   }
